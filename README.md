@@ -14,10 +14,10 @@ A sleek and modern healthcare dashboard built with **React**, designed to help m
 ## 📷 Screenshots
 
 ### Main Dashboard
-![Dashboard Screenshot](./src/assets/screenshots/dashboard1.png)
+![Dashboard Screenshot](https://github.com/mrityu12/Healthcare-Dashboard/blob/bb39c8730cdce2c486ec029a8dc9337874952fd5/Screenshot%202025-05-28%20172133.png)
 
 ### Health Metrics and Appointments
-![Health Details](./src/assets/screenshots/dashboard2.png)
+![Health Details](https://github.com/mrityu12/Healthcare-Dashboard/blob/bb39c8730cdce2c486ec029a8dc9337874952fd5/Screenshot%202025-05-28%20172150.png)
 
 > Ensure these files (`dashboard1.png`, `dashboard2.png`) are located at `src/assets/screenshots/`.
 
