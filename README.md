@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# 🏥 Healthcare Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A sleek and modern healthcare dashboard built with **React**, designed to help manage appointments, view patient vitals, activity, and upcoming schedules.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- 📊 Real-time health metrics like heart rate, sleep, water intake
+- 🗓️ Interactive calendar to manage appointments
+- 🧍 Human anatomy view with organ-specific health progress
+- 🧠 Upcoming doctor appointments and checks
+- 💬 Chat and support tools
+- 📁 Clean and organized component structure
 
-### `npm start`
+## 📷 Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Main Dashboard
+![Dashboard Screenshot](./src/assets/screenshots/dashboard1.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Health Metrics and Appointments
+![Health Details](./src/assets/screenshots/dashboard2.png)
 
-### `npm test`
+> Ensure these files (`dashboard1.png`, `dashboard2.png`) are located at `src/assets/screenshots/`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+- **React.js**
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
+- **Vite / Create React App**
+- Icons used from **Lucide-react** and **custom PNG/SVGs**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🖼️ Custom Icons
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To use `.png` icons in React:
+1. Place them in `src/assets/icons/`
+2. Import them like:
+   ```js
+   import lungsIcon from '../assets/icons/lungs.png';
+Note: Only .svg files can be imported as React components using ReactComponent.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🧠 Setup
+Clone the repo
 
-### `npm run eject`
+bash
+Copy
+Edit
+git clone https://github.com/your-username/healthcare-dashboard.git
+cd healthcare-dashboard
+Install dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Copy
+Edit
+npm install
+Run the app
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bash
+Copy
+Edit
+npm run dev
+Open in browser: http://localhost:3000
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🌐 Deployment
+To build the project for production:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+bash
+Copy
+Edit
+npm run build
+👨‍💻 Author
+Mrityunjay Kumar
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+LinkedIn
