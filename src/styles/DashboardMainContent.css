@@ -1,0 +1,77 @@
+/* DashboardMainContent.css */
+
+/* Container padding and background */
+.p-6 {
+  padding: 1.5rem;
+  background-color: #f9fafb; /* light gray background */
+}
+
+/* Flex utilities */
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+/* Heading styles */
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.text-gray-800 {
+  color: #1f2937;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+/* Grid layout for main content */
+.grid {
+  display: grid;
+}
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.lg\:grid-cols-3 {
+  /* 3 columns on large screens */
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.gap-6 {
+  gap: 1.5rem;
+}
+
+/* Grid column span */
+.lg\:col-span-1 {
+  grid-column: span 1 / span 1;
+}
+
+/* Vertical spacing */
+.space-y-6 > * + * {
+  margin-top: 1.5rem;
+}
+.space-y-6 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* For spacing between Calendar and ActivityFeed */
+.space-y-6 > * + * {
+  margin-top: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .lg\:grid-cols-3 {
+    grid-template-columns: 1fr;
+  }
+  .lg\:col-span-1 {
+    grid-column: auto;
+  }
+}

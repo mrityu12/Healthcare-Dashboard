@@ -1,0 +1,123 @@
+/* Sidebar.css */
+
+.w-64 {
+  width: 16rem; /* 256px */
+}
+
+.bg-gray-50 {
+  background-color: #f9fafb;
+  /* subtle off-white for background */
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.text-gray-500 {
+  color: #6b7280; /* soft medium gray */
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.tracking-wide {
+  letter-spacing: 0.05em;
+}
+
+.space-y-2 > * + * {
+  margin-top: 0.5rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.space-x-3 > * + * {
+  margin-left: 0.75rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.transition-colors {
+  transition-property: color, background-color;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
+.bg-blue-100 {
+  background-color: #dbeafe; /* light blue background when active */
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3); /* subtle blue glow */
+}
+
+.text-blue-700 {
+  color: #1d4ed8; /* deeper blue text for active */
+}
+
+.text-blue-600 {
+  color: #2563eb; /* original blue */
+}
+
+.text-gray-700 {
+  color: #374151; /* slightly darker gray for inactive text */
+}
+
+.text-gray-600 {
+  color: #4b5563; /* medium gray */
+}
+
+.hover\:bg-blue-50:hover {
+  background-color: #eff6ff; /* very light blue on hover */
+}
+
+.hover\:text-blue-700:hover {
+  color: #1d4ed8; /* blue text on hover */
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.h-5 {
+  height: 1.25rem;
+}

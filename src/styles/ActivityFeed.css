@@ -1,0 +1,104 @@
+.dashboard {
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+  font-family: sans-serif;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h2 {
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tabs .tab {
+  padding: 0.5rem 1rem;
+  background: #eee;
+  border: none;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.tabs .tab.active {
+  background: #3b82f6;
+  color: #fff;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.card {
+  background: #f9fafb;
+  padding: 1rem;
+  border-radius: 0.75rem;
+}
+
+.card .top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.card .value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.card small.green {
+  color: green;
+}
+
+.card small.red {
+  color: red;
+}
+
+.chart {
+  margin-top: 2rem;
+}
+
+.chart h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.bar-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.bar-container {
+  flex: 1;
+  height: 10px;
+  background: #e5e7eb;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  background: #3b82f6;
+  border-radius: 1rem;
+}
+
+.steps {
+  font-size: 0.8rem;
+}

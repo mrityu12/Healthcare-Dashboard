@@ -1,0 +1,191 @@
+/* Header.css */
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.bg-white {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* subtle header shadow */
+}
+
+.border-b {
+  border-bottom-width: 1px;
+  border-color: #e5e7eb;
+}
+
+.space-x-4 > * + * {
+  margin-left: 1rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-teal-600 {
+  color: #0d9488; /* deeper teal for header text */
+}
+
+.text-teal-500 {
+  color: #14b8a6;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.left-3 {
+  left: 0.75rem;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
+.transform {
+  transform: translateY(-50%);
+}
+
+.-translate-y-1\/2 {
+  transform: translateY(-50%);
+}
+
+.text-gray-400 {
+  color: #9ca3af;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-gray-300 {
+  border-color: #d1d5db;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.focus\:outline-none:focus {
+  outline: none;
+}
+
+.focus\:ring-2:focus {
+  box-shadow: 0 0 0 2px rgba(20, 184, 166, 0.5);
+}
+
+.focus\:ring-teal-500:focus {
+  --tw-ring-color: #14b8a6;
+}
+
+.space-x-3 > * + * {
+  margin-left: 0.75rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.bg-teal-600 {
+  background-color: #0d9488; /* richer teal background */
+  box-shadow: 0 2px 8px rgba(13, 148, 136, 0.4); /* subtle glow */
+}
+
+.bg-teal-500 {
+  background-color: #14b8a6;
+}
+
+.bg-blue-600 {
+  background-color: #2563eb; /* deeper blue */
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.4);
+}
+
+.bg-blue-500 {
+  background-color: #3b82f6;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.hover\:bg-teal-700:hover {
+  background-color: #0f766e;
+}
+
+.hover\:bg-blue-700:hover {
+  background-color: #1d4ed8;
+}
